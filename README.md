@@ -1,15 +1,5 @@
 # React Project
 
-## LINKS SECTION
-Link to GitHub Repository: https://github.com/ManoLo2ManoLo/React-Portfolio <br />
-Link to Application: https://manolo2manolo.github.io/React-Portfolio/
-
-## Table Of Contents
-* [Description](#description)
-* [Screenshot](#screenshot)
-* [Credits](#credits)
-* [License](#license)
-
 ## Description
 The purpose of this application is to demonstrate my capabilities as a full stack web developer. When you start up the application, there is a section that will give a brief description on who I am. If you click on any button on the navigation bar, it will take you to their respective section. 
 
@@ -26,28 +16,14 @@ If you were to click on the 'Contact Me' button, a form will appear were you can
 If you were to click on the 'Resume' button, you are able to download my resume, as well as see what skills I am currently proficient in.
 ![Screenshot (519)](https://user-images.githubusercontent.com/88364269/150434712-706c7034-b151-4d90-8a5a-0779607ea2ac.png)
 
-## Credits
-This application was typed and revised by Manuel Canas-Menendez (ManoLo2ManoLo).
+## Credit
+This application was typed and revised Manuel Canas-Menendez (ManoLo2ManoLo). <br />
 
-## Licencse
-MIT License
+* [Github](https://github.com/ManoLo2ManoLo)
+* [Portfolio](https://manolo2manolo.github.io/React-Portfolio/)
+* [LinkedIn](https://www.linkedin.com/in/manuel-canas-menendez-33354b21b/)
 
-Copyright (c) 2021 Manuel Canas-Menendez
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## License
+<p align="center">
+    <img align="center" src="https://img.shields.io/github/license/ManoLo2ManoLo/Coding-Quiz?style=for-the-badge" alt="license" />
+</p>
