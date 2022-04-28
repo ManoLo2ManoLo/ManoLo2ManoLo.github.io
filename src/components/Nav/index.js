@@ -6,8 +6,8 @@ function Nav(props) {
         setAboutSelected,
         workSelected,
         setWorkSelected,
-        // contactSelected,
-        // setContactSelected,
+        contactSelected,
+        setContactSelected,
         resumeSelected,
         setResumeSelected
     } = props;
@@ -15,23 +15,23 @@ function Nav(props) {
     function about() {
         setAboutSelected(true)
         setWorkSelected(false)
-        // setContactSelected(false)
+        setContactSelected(false)
         setResumeSelected(false)
     }
 
     function work() {
         setAboutSelected(false)
         setWorkSelected(true)
-        // setContactSelected(false)
+        setContactSelected(false)
         setResumeSelected(false)
     }
 
-    // function contact() {
-    //     setAboutSelected(false)
-    //     setWorkSelected(false)
-    //     setContactSelected(true)
-    //     setResumeSelected(false)
-    // }
+    function contact() {
+        setAboutSelected(false)
+        setWorkSelected(false)
+        setContactSelected(true)
+        setResumeSelected(false)
+    }
 
     function resume() {
         setAboutSelected(false)
@@ -55,9 +55,9 @@ function Nav(props) {
                             <span onClick={() => work()}>My Work</span>
                         </li>
 
-                        {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                        {<li className={`mx-2 ${contactSelected && 'navActive'}`}>
                             <span onClick={() => contact()}>Contact Me</span>
-                        </li> */}
+                        </li>}
 
                         <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
                             <span onClick={() => resume()}>Resume</span>

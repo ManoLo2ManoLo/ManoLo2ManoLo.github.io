@@ -6,7 +6,7 @@ function Resume() {
         <section className='my-1'>
             <h1 className='flex center'>Resume</h1>
 
-            <div class='my-2'>
+            <div className='my-2'>
                 <div className="flex center">
                     <p>Download my <a href={resumePDF} target='_blank' rel='noreferrer noopener' download>resume</a></p>
                 </div>

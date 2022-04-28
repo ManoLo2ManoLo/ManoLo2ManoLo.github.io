@@ -13,8 +13,8 @@ const WorkList = () => {
         },
         {
             name: 'Buzz Trivia',
-            link: 'https://manolo2manolo.github.io/Project-1-Quiz-Game/index.html',
-            github: 'https://github.com/ManoLo2ManoLo/Project-1-Quiz-Game'
+            link: 'https://manolo2manolo.github.io/Buzz-Trivia/',
+            github: 'https://github.com/ManoLo2ManoLo/Buzz-Trivia'
         },
         {
             name: 'Tech Blog',
@@ -45,6 +45,11 @@ const WorkList = () => {
             name: 'WeirdNJobs',
             link: 'https://three-headed-goats-weirdnjobs.herokuapp.com/',
             github: 'https://github.com/ManoLo2ManoLo/WeirdNJobs'
+        },
+        {
+            name: 'Coding Quiz',
+            link: 'https://manolo-coding-quiz.herokuapp.com/',
+            github: 'https://github.com/ManoLo2ManoLo/Coding-Quiz'
         }
     ])
 

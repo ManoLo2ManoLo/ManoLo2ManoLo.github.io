@@ -1,8 +1,0 @@
-{
-    "short_name": "Portfolio",
-    "name": "Manolo's React Portfolio",
-    "start_url": "https://manolo2manolo.github.io/React-Portfolio/",
-    "display": "standalone",
-    "theme_color": "#024BFB",
-    "background_color": "#000000"
-}  

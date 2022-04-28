@@ -20,7 +20,7 @@ function Footer() {
 
                         <div>
                             <a href="mailto:manuel.canas.menendez@gmail.com">
-                                <i className="fa-solid fa-envelope icons mx-2"></i>
+                                <i className="fa-solid fa-envelope icons mx-2 email"></i>
                             </a>
                         </div>
                     </div>
