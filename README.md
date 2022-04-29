@@ -20,7 +20,7 @@ If you were to click on the 'Resume' button, you are able to download my resume,
 This application was typed and revised Manuel Canas-Menendez (ManoLo2ManoLo). <br />
 
 * [Github](https://github.com/ManoLo2ManoLo)
-* [Portfolio](https://manolo2manolo.github.io/React-Portfolio/)
+* [Portfolio](https://manolo2manolo.github.io)
 * [LinkedIn](https://www.linkedin.com/in/manuel-canas-menendez-33354b21b/)
 
 ## License
