@@ -1,40 +1,29 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 const Modal = ({ onClose, currentWork }) => {
     const { name, link, github, index, issue, technology } = currentWork;
 
     return (
-        <div className='modalBackdrop'>
+        <div className='modalBackdrop' onClick={onClose}>
             <div className='modalContainer'>
-                <h3 className='modalTitle'>{name}</h3>
-                <div>
-                    <p>Link to Application: <a href={link} rel="noreferrer" target='_blank'>{link}</a></p>
-                </div>
 
-                <div>
-                    <p>Link to Repository: <a href={github} rel="noreferrer" target='_blank'>{github}</a></p>
-                </div>
+              <Card bg="dark" text="white">
+                <Card.Header>{name}</Card.Header>
+                <Card.Body variant="flush">
+                  <Card.Text>Link to Application: <a href={link} rel="noreferrer" target='_blank'>{link}</a></Card.Text>
+                  <Card.Text>Link to Repository: <a href={github} rel="noreferrer" target='_blank'>{github}</a></Card.Text>
+                </Card.Body>
 
-                <a href={link} rel="noreferrer" target='_blank' className='flex center'>
-                    <img 
-                        src={require(`../../assets/images/${index}.png`)}
-                        alt='current work'
-                        target='_blank'
-                        className='shrink box'
-                    />
-                </a>
-
-                <div className='my-5'>
-                    <p className='text-center'>{name} {issue}</p>
-                </div>
-
-                <div>
-                    <p className='technology text-center'>Technology used are {technology}.</p>
-                </div>
-
-                <div className='flex center'>
-                    <button type='button' onClick={onClose}>Close</button>
-                </div>
+                <Card.Img 
+                  src={require(`../../assets/images/${index}.png`)}
+                  alt='current work'
+                  target='_blank'
+                  className='px-5'
+                />
+                <Card.Footer className="text-muted mx-auto">{name} {issue}</Card.Footer>
+                <Card.Footer className="text-muted mx-auto">Technology used are {technology}.</Card.Footer>
+              </Card>
             </div>
         </div>
     )
